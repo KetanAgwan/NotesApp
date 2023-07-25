@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <script src="https://kit.fontawesome.com/c3f4bf0210.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="formCss.css">
+    <link rel="stylesheet" href="updateForm.css">
+</head>
+
+<body>
+    <div class="logout-btn" title="logout" id="logout-btn">
+        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+    </div>
+    <div class="form-modal" id="form-modal">
+        <div class="alert-window">
+            <div class="alert-box">
+                <div class="red-alert" id="red-alert">This is an alert</div>
+                <div class="internal-forms-container" id="internal-forms-container">
+                    <div class="login-div">
+                        <form id="login-form" class="entry-form">
+                            <h3>To continue you must have to login first</h3>
+                            <div>
+                                <label for="login-name">Name</label><br>
+                                <input type="text" name="login-name" id="login-name" class="inputs login-inputs"
+                                    placeholder="enter your name...">
+                            </div>
+                            <div>
+                                <label for="login-password">Password</label>
+                                <input type="text" name="login-password" id="login-password" class="inputs login-inputs"
+                                    placeholder="enter passwor...">
+                            </div>
+                            <button type="submit" id="login-submit-btn" class="submit-btn">Submit</button>
+                            <h4>did'nt signed up yet ? <button type="button" id="signup-btn"
+                                    class="slide-btn">signup</button></h4>
+                        </form>
+                    </div>
+                    <div class="signup-div">
+                        <form id="signup-form" class="entry-form">
+                            <h3>Welcome to Notes app please signup</h3>
+                            <div>
+                                <label for="signup-name">Name</label><br>
+                                <input type="text" name="signup-name" id="signup-name" class="inputs signup-inputs"
+                                    placeholder="enter your name...">
+                            </div>
+                            <div>
+                                <label for="signup-password">Password</label>
+                                <input type="text" name="signup-password" id="signup-password"
+                                    class="inputs signup-inputs" placeholder="enter passwor...">
+                            </div>
+                            <button type="submit" id="signup-submit-btn" class="submit-btn">Submit</button>
+                            <h4>already have an account ? <button type="button" id="login-btn"
+                                    class="slide-btn">login</button></h4>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- entire model ends here  -->
+    <!-- the update from modal starts here  -->
+    <div class="alert-window1" id="alert-window1">
+        <div class="alert-box1">
+            <div class="update-note-form">
+                <div class="update-form-close" id="close" title="Close form">
+                    <i class="fa-regular fa-circle-xmark"></i>
+                </div>
+                <div class="update-note-title-div">
+                    <label for="title">
+                        Title :
+                    </label><br>
+                    <input type="text" name="update-note-title" id="update-note-title"
+                        class="update-note-title update-note-inputs">
+                </div>
+                <div class="update-note-desc-div">
+                    <label for="description">
+                        Description :
+                    </label><br>
+                    <textarea name="note-desc" id="update-note-desc" class="update-note-desc update-note-inputs" cols="40"
+                        rows="6"></textarea>
+                </div>
+                <div class="update-operation-btn-container">
+                    <button class="update-note-form-btns" id="update-btn" title="Save Note">Save</button>
+                    <button class="update-note-form-btns" id="update-clear-btn" title="Clear form">Clear</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- uspdate form ends here  -->
+    <!-- the notes container starts here  -->
+    <div class="notes-container" id="notes-container">
+        <div class="create-note" id="create-note">
+            <div class="new-note" id="new-note" title="Create Note">
+                <div class="plus-box">
+                    <i class="fa-solid fa-plus" "></i>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!-- notes container ends here  -->
+</body>
+<script src="formJs.js"></script>
+<script src="dbconnect.js" defer></script>
+<!--this js is for database connection  -->
+<script src="script.js"></script>
+
+</html>

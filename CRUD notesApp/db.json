@@ -1,0 +1,89 @@
+{
+  "Notes": [
+    {
+      "id": 1,
+      "name": "Rahul",
+      "password": "abcxyz",
+      "notelist": [
+        {
+          "noteid": 1,
+          "title": " Welcome to the Notes app",
+          "description": "note desc"
+        },
+        {
+          "noteid": 2,
+          "title": "demo note 2",
+          "description": "demo description 2"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "ganesh",
+      "password": "ganesh123",
+      "notelist": [
+        {
+          "noteid": 1,
+          "title": "demo note 1 check 3",
+          "description": "ganesh demo description 1 check 3"
+        },
+        {
+          "noteid": 5,
+          "title": "this is another test of inserting new note",
+          "description": "this is another test of inserting new demo note "
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "HELLO",
+      "password": "HELLO",
+      "notelist": [
+        {
+          "noteid": 1,
+          "title": "demo note 2",
+          "description": "demo description 2"
+        },
+        {
+          "noteid": 2,
+          "title": "HEllO ",
+          "description": "helo my friend"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "ram",
+      "password": "ram1",
+      "notelist": [
+        {
+          "noteid": 1,
+          "title": "adding the note",
+          "description": "adding the note desc"
+        },
+        {
+          "noteid": 2,
+          "title": "trying the insertion",
+          "description": "trying the insertion desc"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "yash",
+      "password": "10128",
+      "notelist": [
+        {
+          "noteid": 2,
+          "title": "yash shinde demo note",
+          "description": "yash shinde demo note desc\n"
+        },
+        {
+          "noteid": 1,
+          "title": "Welcome to the Notes app",
+          "description": "Introducing \"MyNotes\" - a feature-rich note-taking app built withJavaScriptand the Fetch API. This innovative application allows users to create, view, update, anddelete notesseamlessly. \"MyNotes\" simplifies organization by providing a user-friendly interface to notedown thoughts,ideas, and reminders effortlessly. Leveraging asynchronous Fetch requests, it securelycommunicates with the server,storing and retrieving data efficiently. With a sleek design and smooth functionality,\"MyNotes\" empowers users tostay organized and productive in their daily lives.Whether it's a quick note or an important task, \"MyNotes\" is the go-to solution for managinginformation with ease"
+        }
+      ]
+    }
+  ]
+}
